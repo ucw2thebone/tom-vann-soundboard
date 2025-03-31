@@ -12,14 +12,13 @@ body {
 
 header {
   margin-top: 20px;
-}
-
-h1 {
-  color: #333;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 20px;
+  border-radius: 12px;
+  display: inline-block;
 }
 
 .funny-img {
-  margin-top: 10px;
   max-width: 300px;
   width: 90%;
   border-radius: 12px;
@@ -32,7 +31,9 @@ h1 {
   gap: 15px;
   padding: 30px;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 30px auto;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 12px;
 }
 
 .audio-button {
@@ -42,6 +43,8 @@ h1 {
   border-radius: 10px;
   cursor: pointer;
   transition: background 0.3s ease;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 .audio-button:hover {
