@@ -27,7 +27,7 @@ header {
 
 .audio-board {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-template-columns: repeat(4, 1fr); /* Force 4 columns */
   gap: 15px;
   padding: 30px;
   max-width: 600px;
