@@ -59,3 +59,15 @@ header {
 .audio-button:hover {
   background-color: #6e2323; /* darker red on hover */
 }
+.warning-img {
+  max-width: 300px;
+  width: 90%;
+  margin: 40px auto 20px;
+  display: block;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.warning-img:hover {
+  transform: scale(1.05);
+}
