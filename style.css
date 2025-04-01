@@ -27,10 +27,11 @@ header {
 
 .audio-board {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Force 4 columns */
-  gap: 15px;
+  grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+  gap: 20px;
   padding: 30px;
-  max-width: 600px;
+  width: 800px; /* fixed width for consistent tile size */
+  max-width: 90%;
   margin: 30px auto;
   background-color: rgba(255, 255, 255, 0.85);
   border-radius: 12px;
@@ -45,6 +46,10 @@ header {
   transition: background 0.3s ease;
   font-weight: bold;
   font-size: 16px;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .audio-button:hover {
