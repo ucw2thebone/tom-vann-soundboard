@@ -38,8 +38,8 @@ header {
 }
 
 .audio-button {
-  background-color: #8b2d2d; /* red from image */
-  color: #f4a742;            /* yellow from image */
+  background-color: #8b2d2d !important;
+  color: #f4a742 !important;
   height: 100px;
   border-radius: 10px;
   cursor: pointer;
