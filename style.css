@@ -77,3 +77,12 @@ header {
   transform: scale(1.05);
 }
 
+.logo-img {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 40px auto 0;
+  border: none;
+  box-shadow: none;
+}
+
