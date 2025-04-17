@@ -79,10 +79,11 @@ header {
 
 .logo-img {
   max-width: 600px;
-  width: auto;
+  width: 100%;
   height: auto;
   display: block;
   margin: 40px auto 0;
+  background: transparent;
   border: none;
   box-shadow: none;
 }
